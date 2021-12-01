@@ -110,7 +110,7 @@ const renewToken = async ( req, res ) => {
 
     res.json({
         ok: true,
-        usuarioDB,
+        usuario: usuarioDB,
         token
     });
 }
